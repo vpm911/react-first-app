@@ -4,7 +4,7 @@
   margin: 20px;
   display: flex;
   flex-direction: column;
-  background: rgb(228, 149, 130);
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
   align-items: center;
   min-width: 40%;
   padding-bottom: 10px;
@@ -13,4 +13,10 @@
 .recipe img{
   width: 250px;
   border: 1px black;
+}
+
+.recipe ol lh{
+  font-size: 1.3em;
+  font-weight: bold;
+  margin:3px;
 }
